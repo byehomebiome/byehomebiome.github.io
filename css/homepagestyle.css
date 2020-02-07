@@ -1,0 +1,430 @@
+/* GENERAL PROPERTIES */
+
+* {
+  box-sizing: border-box;
+}
+
+section img {
+  display: inline-block;
+}
+
+body {
+  font-family: bebas-neue;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* TYPOGRAPHY */
+
+body,
+p,
+a,
+button {
+  font-family: Constantia;
+  font-size: 16px;
+}
+h1,
+h2 {
+  font-family: bebas-neue;
+  color: #fff;
+}
+nav a,
+nav p {
+  font-family: bebas-neue;
+}
+h1 {
+  font-size: 30px;
+  margin: 0;
+  color: black;
+}
+h2 {
+  font-size: 20px;
+}
+.red {
+  color: #ff0033;
+}
+
+/* TOP NAVIGATION BAR */
+
+.logo {
+  float: left;
+  width: 50px;
+  height: 40px;
+  margin-top: 5px;
+}
+.home {
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+header {
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  box-shadow: 0px 0px 5px black;
+}
+header,
+footer {
+  text-align: center;
+  margin: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #313638;
+}
+
+nav {
+  height: 100%;
+  float: right;
+}
+nav a {
+  color: white;
+}
+.nav-div {
+  background-color: #313638;
+  height: 100%;
+  width: 150px;
+  float: left;
+  color: white;
+}
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+nav .nav-div:hover {
+  background-color: #eee;
+  color: #313638;
+}
+
+/* DROPDOWN */
+.dropbtn {
+  background-color: #313638;
+  color: #fff;
+  border: none;
+  width: 150px;
+}
+.dropbtn:hover {
+  background-color: #eee;
+  color: #313638;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #eee;
+  width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropbtn {
+  height: 100%;
+}
+.dropdown:hover .dropbtn {
+  background-color: #eee;
+  color: black;
+}
+
+/* LANDING PAGE */
+#byehome {
+  font-size: 500%;
+  background: -webkit-linear-gradient(#ff0033, #e4b363);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+#uparrow {
+  width: 45px;
+  height: auto;
+  margin: auto;
+  background-color: white;
+  opacity: 70%;
+  border-radius: 50%;
+  position: relative;
+  top: 90%;
+  left: 47%;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+#uparrow:hover {
+  opacity: 100%;
+  transform: rotate(180deg);
+  /*transform: scale(1.05, 1.05);*/
+}
+#cctop {
+  color: white;
+  margin-top: 5px;
+  font-family: constantia;
+  text-shadow: 2px 2px 4px black;
+}
+
+.byehomesection {
+  background-image: url("https://www.advancedsciencenews.com/wp-content/uploads/2017/01/earth-216833_1280.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#cc {
+  margin: auto;
+  width: 100%;
+  color: white;
+}
+hr {
+  margin: auto;
+  width: 80%;
+  color: black;
+}
+
+/* CONTENT */
+#leftdiv {
+  float: left;
+  width: 50%;
+  height: 50%;
+  background: -webkit-linear-gradient(#e4b363, white);
+  background-color: #e4b363;
+}
+
+#leftdiv a {
+  text-decoration: none;
+  color: black;
+}
+
+#secondp {
+  text-align: justify;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5px;
+  text-indent: 30px;
+}
+#secondpquote {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5px;
+  font-size: 27px;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+#biomep {
+  text-align: justify;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-top: 5px;
+  text-indent: 30px;
+}
+#instructions {
+  margin-left: 70px;
+  margin-right: 20px;
+}
+#map {
+  box-shadow: 0px 3px 2px black;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+.section {
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  height: 50px;
+  width: 100%;
+}
+
+#main {
+  width: 90%;
+  height: 300px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 50px;
+  font-family: bebas-neue;
+  margin-bottom: 0px;
+}
+
+.factors {
+  color: black;
+  font-size: 30px;
+}
+.biomecaption {
+  font-size: 70px;
+  text-shadow: 2px 2px 5px black;
+  letter-spacing: 20px;
+  border: 10px;
+  border-style: solid;
+  border-color: white;
+  padding: 30px;
+}
+#tundra {
+  color: white;
+  position: absolute;
+  left: 51%;
+  top: 5%;
+  transform: translate(-50%);
+}
+#mangrove {
+  color: white;
+  position: absolute;
+  left: 51.5%;
+  top: 26%;
+  transform: translate(-50%);
+}
+#rainforest {
+  color: white;
+  position: absolute;
+  left: 51.5%;
+  top: 47%;
+  transform: translate(-50%);
+}
+#ocean {
+  color: white;
+  position: absolute;
+  left: 52%;
+  top: 68%;
+  transform: translate(-50%);
+}
+.bibliography {
+  padding: 25px;
+  background: linear-gradient(#fff, #ef6461);
+}
+.bibliography h1 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+.bibliography summary {
+  font-family: bebas-neue;
+  font-size: 25px;
+}
+.bibliography ul {
+  font-family: constantia;
+  font-size: 17px;
+}
+.bibliography a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-family: constantia;
+}
+.bibliography a:hover {
+  color: #313638;
+}
+
+/*Columns*/
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  box-shadow: 0px 3px 2px black;
+}
+
+.column a {
+  text-decoration: none;
+  color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.mini {
+  width: 90%;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0px 3px 2px black;
+}
+
+.article {
+  text-align: center;
+}
+
+/*TRANSITIONN*/
+#main img {
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+  width: 90%;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 2px black;
+}
+
+#main img.top:hover {
+  opacity: 0;
+}
+
+/*GALLERY*/
+.gallerybox {
+  margin: auto;
+  padding: 25px;
+}
+#normal {
+  width: 169px;
+  height: 169px;
+  cursor: pointer;
+}
+.expandedbox {
+  position: relative;
+  display: none;
+}
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}

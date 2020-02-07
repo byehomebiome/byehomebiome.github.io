@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bye, Home</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Blog" />
+    <meta name="keyword" content="Opinion, Climate Change, Earth, Biomes" />
+    <meta name="author" content="S.L. Fernando, J.R. Peña, M.J. Real" />
+    <link rel="stylesheet" href="https://use.typekit.net/ucl3oay.css">
+    <link rel="stylesheet" href="../css/formstyle.css">
+    <link rel="icon" href="../images/favicon.ico">
+    <script src="../js/formjs.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157736734-8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-157736734-8');
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"><img class="logo" src="https://i.imgur.com/iNASvLu.png" alt="Website logo"></a>
+
+        <nav>
+            <div class="nav-div dropdown">
+                <button class="dropbtn">
+                    <p>Biomes</p>
+                </button>
+                <div class="dropdown-content">
+                    <a href="tundra.html">Tundra</a>
+                    <a href="mangrove.html">Mangrove</a>
+                    <a href="rainforest.html">Rainforest</a>
+                    <a href="ocean.html">Ocean</a>
+                </div>
+            </div>
+            <a class="nav-div" href="initiative.html">
+                <p>Your Initiative</p>
+            </a>
+            <a class="nav-div" href="authors.html">
+                <p>About the Authors</p>
+            </a>
+            <a id="selectedpage" class="nav-div" href="form.html">
+                <p>Feedback</p>
+            </a>
+            <a class="nav-div" href="blog.html">
+                <p>Blog</p>
+            </a>
+            <a class="nav-div" href="../index.html#bibliography">
+                <p>Bibliography</p>
+            </a>
+        </nav>
+    </header>
+
+    <div id="formwrapper">
+        <form>
+            <fieldset>
+                <legend>How's our site?</legend>
+                <label onclick="userrating()"> Rate our site:
+                    <input id="rating1" type="radio" name="rating" value="1">1
+                    <input id="rating2" type="radio" name="rating" value="2">2
+                    <input id="rating3" type="radio" name="rating" value="3">3
+                    <input id="rating4" type="radio" name="rating" value="4">4
+                    <input id="rating5" type="radio" name="rating" value="5">5
+                </label>
+                <br>
+                <p id="ratingtext"></p>
+                <label>
+                    What do you like most about our site?
+                    <select>
+                        <option name="likemost" value="Educational">Educational</option>
+                        <option name="likemost" value="Informative">Informative</option>
+                        <option name="likemost" value="Visually Appealing">Visually Appealing</option>
+                        <option name="likemost" value="Easy to Use">Easy to Use</option>
+                    </select>
+                </label>
+                <label> Any issues?
+                    <input name="issues" type="text">
+                </label>
+                <label> Any suggestions?
+                    <input name="suggestions" type="text">
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Support Us</legend>
+                <label> Donate (PHP)
+                    <input name="donate" type="number" min="0">
+                </label>
+                <a href="https://forms.gle/UD12aHNTfs4MTn1k9" target="_blank"><h3>Click here to vote for <em>Bye Home</em> as the best website!</h3></a>
+            </fieldset>
+
+            <br>
+            <input id="submit" type="submit">
+        </form>
+    </div>
+
+    <footer>
+        <a href="../index.html"><img class="logo" src="https://i.imgur.com/iNASvLu.png" alt="Website logo"></a>
+
+        <nav>
+            <a class="nav-div" href="initiative.html">
+                <p>Your Initiative</p>
+            </a>
+            <a class="nav-div" href="authors.html">
+                <p>About the Authors</p>
+            </a>
+            <a class="nav-div" href="../index.html#bibliography">
+                <p>Bibliography</p>
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

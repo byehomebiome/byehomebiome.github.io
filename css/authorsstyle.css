@@ -1,0 +1,206 @@
+/* GENERAL PROPERTIES */
+
+* {
+  box-sizing: border-box;
+}
+img {
+  display: inline-block;
+}
+body {
+  font-family: bebas-neue;
+  margin: 0;
+}
+
+/* TOP NAVIGATION BAR */
+
+.logo {
+  float: left;
+  width: 50px;
+  height: 40px;
+  margin-top: 5px;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  box-shadow: 0px 0px 5px black;
+}
+header, footer {
+  text-align: center;
+  margin: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #313638;
+}
+footer {
+  margin-top: 40px;
+}
+nav {
+  height: 100%;
+  float: right;
+}
+nav a {
+  color: white;
+}
+.nav-div {
+  background-color: #313638;
+  height: 100%;
+  width: 150px;
+  float: left;
+}
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+nav .nav-div:hover {
+  background-color: #eee;
+  color: #313638;
+}
+nav p {
+  font-family: bebas-neue;
+  font-size: 16px;
+}
+.dropbtn {
+  background-color: #313638;
+  color: #fff;
+  border: none;
+  width: 150px;
+}
+.dropbtn:hover {
+  background-color: #eee;
+  color: #313638;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ddd;
+  width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #eee;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #eee;
+  color: black;
+}
+.dropbtn {
+  height: 100%;
+}
+#selectedpage {
+  background-color: #fff;
+  color: #313638;
+}
+
+/* CONTENT */
+
+.box {
+  width: 90%;
+  height: auto;
+  margin: 5px auto;
+}
+.box h1 {
+  height: auto;
+  font-size: 60px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px #313638;
+}
+#sidneyname {
+  color: #ef6461;
+}
+#reignname {
+  color: #e4b363;
+}
+#mjname {
+  color: #ef6461;
+}
+.box h2 {
+  font-size: 30px;
+}
+.box h3 {
+  font-family: constantia;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0;
+}
+.box blockquote {
+  font-size: 30px;
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px solid #313638;
+  border-width: 2px 0;
+  text-align: center;
+  position: relative;
+}
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 20px;
+  font-family: constatia;
+  font-size: 100px;
+  color: #e4b363;
+  text-align: center;
+}
+.sidprofile, .reignprofile, .mjprofile {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  transition: all 0.6s ease-in-out;
+}
+.sidprofile:hover, .reignprofile:hover, .mjprofile:hover {
+  transform: scale(1.08);
+}
+.box {
+  line-height: 80%;
+}
+.sidcontent, .mjcontent {
+  width: 63%;
+  float: right;
+  text-align: left;
+}
+.sidprofile, .mjprofile {
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  float: left;
+}
+.reigncontent {
+  width: 63%;
+  float: left;
+  text-align: right;
+}
+.reignprofile {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  float: right;
+}
+.sidney::after, .reign::after, .mj::after {
+  content: "";
+  display: table;
+  clear: both;
+}
