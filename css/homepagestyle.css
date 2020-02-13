@@ -418,6 +418,8 @@ footer {
 }
 #expandedimg {
   transition: all 0.6s ease-in-out;
+  width: 300px;
+  height: auto;
 }
 #normal:hover ~ #expandedimg {
   transform: scale(1.08);
