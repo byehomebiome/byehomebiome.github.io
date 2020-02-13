@@ -416,6 +416,13 @@ footer {
   height: 169px;
   cursor: pointer;
 }
+#expandedimg {
+  transition: all 0.6s ease-in-out;
+}
+#normal:hover ~ #expandedimg {
+  transition: all 0.6s ease-in-out;
+  transform: scale(1.08);
+}
 .expandedbox {
   position: relative;
   display: none;
