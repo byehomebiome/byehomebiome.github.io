@@ -418,7 +418,7 @@ footer {
 }
 #expandedimg {
   transition: all 0.6s ease-in-out;
-  width: 300px;
+  width: 500px;
   height: auto;
 }
 #normal:hover ~ #expandedimg {
