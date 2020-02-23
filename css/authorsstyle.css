@@ -3,9 +3,16 @@
 * {
   box-sizing: border-box;
 }
+
 img {
   display: inline-block;
 }
+
+@font-face {
+  font-family: bebas-neue;
+  src: url(../fonts/BebasNeue-Bold.ttf);
+}
+
 body {
   font-family: bebas-neue;
   margin: 0;
