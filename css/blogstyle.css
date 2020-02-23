@@ -1,11 +1,18 @@
 /* GENERAL PROPERTIES */
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+@font-face {
+  font-family: bebas-neue;
+  src: url(../fonts/BebasNeue-Bold.ttf);
+}
+
 body {
-	margin: 0;
+    margin: 0;
   font-family: bebas-neue;
 }
+
 a {
   text-decoration: none;
 }
