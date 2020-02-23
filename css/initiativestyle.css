@@ -3,6 +3,12 @@
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: bebas-neue;
+  src: url(../fonts/BebasNeue-Bold.ttf);
+}
+
 body {
   background-color: white;
   margin: 0;
