@@ -131,6 +131,7 @@ nav .nav-div:hover {
 .dropbtn {	
   height: 100%;	
 }	
+
 /* ARTICLE */	
 .biome-img {	
   width: 100%;	
@@ -154,7 +155,7 @@ nav .nav-div:hover {
 .biome-name {	
   position: absolute;	
   bottom: 8px;	
-  left: 16px;	
+  left: 20px;	
   z-index: 4;	
   letter-spacing: 20px;	
   text-shadow: 2px 2px 5px black;	
@@ -191,7 +192,8 @@ article::after {
   content: "";	
   clear: both;	
 }	
-/*BIBLIOGRAPHY*/	
+
+/* BIBLIOGRAPHY */	
 .bibliography {	
     padding: 25px;    	
 }	
