@@ -8,6 +8,11 @@ section img {
   display: inline-block;
 }
 
+@font-face {
+  font-family: bebas-neue;
+  src: url(../fonts/BebasNeue-Bold.ttf);
+}
+
 body {
   font-family: bebas-neue;
   margin: 0;
@@ -105,49 +110,6 @@ nav a {
 nav .nav-div:hover {
   background-color: #eee;
   color: #313638;
-}
-.hidden-nav {
-  display: none;
-}
-
-/* RESPONSIVE NAV BAR */
-@media only screen and (max-width: 1000px) {
-  .nav-div {
-    width: 100%;
-  }
-  nav .nav-div {
-    display: none;
-  }
-  .hidden-nav {
-    background-color: #313638;
-    height: 100%;
-    width: 80px;
-    float: right;
-    display: inline;
-  }
-  .hidden-nav::after {
-    clear: both;
-  }
-  .hidden-nav-img {
-    height: 90%;
-    width: auto;
-    padding-top: 5px;
-  }
-  .topnav.responsive {
-    position: relative;
-  }
-  nav.responsive .hidden-nav-img {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  nav.responsive a {
-    float: none;
-    display: block;
-    padding: 10px;
-    margin: 0;
-    text-align: center;
-  }
 }
 
 /* DROPDOWN */
