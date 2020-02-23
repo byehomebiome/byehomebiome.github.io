@@ -3,9 +3,15 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
+}
+
+@font-face {
+  font-family: bebas-neue;
+  src: url(../fonts/BebasNeue-Bold.ttf);
 }
 
 /* TYPOGRAPHY */
