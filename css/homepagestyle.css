@@ -131,6 +131,7 @@ nav .nav-div:hover {
   }
   .hidden-nav:hover {
     background-color: #e4b363;
+    cursor: pointer;
   }
   .responsive .hidden-nav {
     background-color: #e4b363;
