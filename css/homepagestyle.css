@@ -205,8 +205,8 @@ nav .nav-div:hover {
 	outline: none;
 	vertical-align: middle;    
 	text-shadow:
-        0 3px 20px #ef6461,
-        0 0 20px #ef6461,
+        0 3px 20px #ff0033,
+        0 0 20px #ff0033,
 		0 0 10px #e67452,
 		4px -5px 6px #e4b363,
 		-4px -10px 10px #e4b363,
@@ -227,7 +227,7 @@ nav .nav-div:hover {
 		-2px -5px 5px #e4b363,
 		3px -10px 10px #f7db05,
 		-4px -15px 20px yellow; }
-	50%   { text-shadow: 0 3px 20px #ef6461, 0 0 20px #ef6461,
+	50%   { text-shadow: 0 3px 20px #ef6461, 0 0 20px #ff0033,
 		0 -5px 10px #e67452,
 		-2px -5px 5px #f7db05,
 		3px -10px 10px #e4b363,
