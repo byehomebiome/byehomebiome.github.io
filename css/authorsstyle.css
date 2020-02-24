@@ -70,7 +70,7 @@ nav .nav-div:hover {
   background-color: #eee;
   color: #313638;
 }
-#biomedropdown {
+#biomedropdown p {
   font-family: bebas-neue;
 }
 .hidden-nav {
