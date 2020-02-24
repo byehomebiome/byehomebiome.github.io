@@ -10,7 +10,7 @@ section img {
 
 @font-face {
   font-family: bebas-neue;
-  src: url(../fonts/BebasNeue-Bold.ttf);
+  src: url(fonts/BebasNeue-Bold.ttf);
 }
 
 body {
