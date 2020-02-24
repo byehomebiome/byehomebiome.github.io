@@ -216,20 +216,20 @@ nav .nav-div:hover {
 
 @keyframes Blazing {
 	0%   { text-shadow: 0 3px 20px red, 0 0 20px #ff0033,
-		0 0 10px #ff0033,
-		0 0 0 #f7db05,
+		0 0 10px orange,
+		0 0 0 yellow,
 		0 0 5px yellow,
 		-2px -5px 5px #f7db05,
 		4px -10px 10px yellow; }
 	25%   { text-shadow: 0 3px 20px #ff0033, 0 0 30px red,
-		0 0 20px #ff0033,
+		0 0 20px orange,
 		0 0 5px #e4b363,
 		-2px -5px 5px #e4b363,
 		3px -10px 10px #f7db05,
 		-4px -15px 20px yellow; }
 	50%   { text-shadow: 0 3px 20px red, 0 0 20px red,
-		0 -5px 10px yellow,
-		-2px -5px 5px orange,
+		0 -5px 10px orange,
+		-2px -5px 5px yellow,
 		3px -10px 10px #e4b363,
 		-4px -15px 20px #e4b363,
 		2px -20px 30px rgba(255,255,0,0.5); }
@@ -240,8 +240,8 @@ nav .nav-div:hover {
 		2px -20px 30px rgba(255,255,0,0.5),
 		0px -25px 40px rgba(255,255,0,0)}
 	100%   { text-shadow: 0 3px 20px red, 0 0 20px red,
-		0 0 10px #ff0033,
-		0 0 0 #e4b363,
+		0 0 10px orange,
+		0 0 0 yellow,
 		0 0 5px #e4b363,
 		-2px -5px 5px #e4b363,
 		4px -10px 10px #e4b363; }
