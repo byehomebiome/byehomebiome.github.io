@@ -141,6 +141,11 @@ nav .nav-div:hover {
     padding: 5px;
     text-align: center;
   }
+  .responsive .dropdown-content {
+    display: absolute;
+    right: 5px;
+    top: 5px;
+  }
 }
 
 /* DROPDOWN */
