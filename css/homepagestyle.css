@@ -129,6 +129,12 @@ nav .nav-div:hover {
     width: 150px;
     display: inline-block;
   }
+  .hidden-nav:hover {
+    background-color: #e4b363;
+  }
+  .responsive .hidden-nav {
+    background-color: #e4b363;
+  }
   .responsive .nav-div, .responsive #biomedropdown {
     float: none;
     display: block;
