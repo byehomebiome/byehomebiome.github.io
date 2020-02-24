@@ -142,7 +142,7 @@ nav .nav-div:hover {
     text-align: center;
   }
   .responsive .dropdown-content {
-    display: absolute;
+    display: relative;
     right: 5px;
     top: 5px;
   }
