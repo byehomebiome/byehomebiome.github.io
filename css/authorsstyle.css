@@ -72,6 +72,7 @@ nav .nav-div:hover {
 }
 #biomedropdown p {
   font-family: bebas-neue;
+  font-size: 16px;
 }
 .hidden-nav {
   display: none;
