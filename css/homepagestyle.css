@@ -216,7 +216,7 @@ nav .nav-div:hover {
 
 @keyframes Blazing {
 	0%   { text-shadow: 0 3px 20px #ef6461, 0 0 20px #ef6461,
-		0 0 10px orange,
+		0 0 10px #ff4a3d,
 		0 0 0 #e4b363,
 		0 0 5px #e4b363,
 		-2px -5px 5px #e4b363,
