@@ -8,7 +8,6 @@
   <meta name="keyword" content="Climate Change, Earth, Biomes">
   <meta name="author" content="S.L. Fernando, J.R. Peña, M.J. Real">
   <link rel="stylesheet" href="https://use.typekit.net/ucl3oay.css">
-  <link rel="stylesheet" href="css/homepagestyle.css">
   <link rel="icon" href="images/favicon.ico">
   <script src="js/homepage.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -27,8 +26,11 @@
     <!-- LOGO -->
     <a href="index.html"><img class="logo" src="https://i.imgur.com/iNASvLu.png" alt="website logo"></a>
 
-    <nav>
-      <div class="nav-div dropdown"><button class="dropbtn"><p>Biomes</p></button>
+    <nav id="top-nav" class="topnav">
+      <a class="hidden-nav">
+        <img onclick="showNav()" class="hidden-nav-img" src="https://i.ya-webdesign.com/images/menu-icon-png-3-lines-16.png">
+      </a>
+      <div id="biomedropdown" class="nav-div dropdown"><button class="dropbtn"><p>Biomes</p></button>
         <div class="dropdown-content">
           <a href="htdocs/tundra.html">Tundra</a>
           <a href="htdocs/mangrove.html">Mangrove</a>
@@ -54,7 +56,7 @@
     </nav>
   </header>
 
-  <!--LANDING PAGE-->
+  <!-- LANDING PAGE -->
   <section class="byehomesection">
     <div class="middle">
       <h1 id="byehome"> Bye Homes, Biomes.</h1>
