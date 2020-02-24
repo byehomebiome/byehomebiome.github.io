@@ -138,11 +138,8 @@ nav .nav-div:hover {
   .responsive .nav-div, .responsive #biomedropdown {
     float: none;
     display: block;
-    padding: 5px;
+    padding: 1px;
     text-align: center;
-  }
-  .responsive .dropdown-content {
-    box-shadow: none;
   }
 }
 
