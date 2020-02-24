@@ -176,6 +176,7 @@ nav .nav-div:hover {
   position: relative;	
   margin-bottom: 20px;
   margin-top: 60px;
+  z-index: 0;
 }	
 .bottom-img, .top-img {	
   width: 100%;	
