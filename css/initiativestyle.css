@@ -48,22 +48,16 @@ nav a, nav p {
 header {
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   box-shadow: 0px 0px 5px black;
 }
-header, footer {
+header,
+footer {
   text-align: center;
   margin: 0;
   height: 50px;
   width: 100%;
   background-color: #313638;
-}
-footer {
-  margin-top: 20px;
-}
-#selectedpage {
-  background-color: #fff;
-  color: #313638
 }
 nav {
   height: 100%;
@@ -71,6 +65,7 @@ nav {
 }
 nav a {
   color: white;
+  text-decoration: none;
 }
 .nav-div {
   background-color: #313638;
@@ -84,18 +79,56 @@ nav::after {
   display: block;
   clear: both;
 }
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
 nav .nav-div:hover {
   background-color: #eee;
   color: #313638;
+}
+#biomedropdown p {
+  font-family: bebas-neue;
+  font-size: 16px;
+}
+.hidden-nav {
+  display: none;
 }
 #selectedpage {
   background-color: #fff;
   color: #313638;
 }
+
+/* RESPONSIVE NAV BAR */
+@media only screen and (max-width: 1000px) {
+  .nav-div, #biomedropdown {
+    display: none;
+  }
+  .hidden-nav-img {
+    height: 90%;
+    width: auto;
+    padding-top: 5px;
+    margin: auto;
+  }
+  .hidden-nav {
+    background-color: #313638;
+    height: 100%;
+    width: 150px;
+    display: inline-block;
+  }
+  .hidden-nav:hover {
+    background-color: #e4b363;
+    cursor: pointer;
+  }
+  .responsive .hidden-nav {
+    background-color: #e4b363;
+  }
+  .responsive .nav-div, .responsive #biomedropdown {
+    float: none;
+    display: block;
+    padding: 2px 0;
+    text-align: center;
+  }
+}
+
+/* DROPDOWN */
+
 .dropbtn {
   background-color: #313638;
   color: #fff;
