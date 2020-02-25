@@ -197,10 +197,10 @@ nav .nav-div:hover {
 
 #byehome {
 	/*display: inline-block;*/
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	color: #101010;
 	font-size: 100px;
-	line-height: 1em;
+	line-height: 50px;
 	min-width: 50px;
 	outline: none;
 	vertical-align: middle;    
@@ -447,7 +447,7 @@ footer {
   color: #313638;
 }
 
-/*Columns*/
+/* COLUMNS */
 
 .column {
   float: left;
@@ -455,18 +455,15 @@ footer {
   padding: 10px;
   box-shadow: 0px 3px 2px black;
 }
-
 .column a {
   text-decoration: none;
   color: black;
 }
-
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 .mini {
   width: 90%;
   height: 100px;
@@ -476,12 +473,11 @@ footer {
   border-radius: 10px;
   box-shadow: 0px 3px 2px black;
 }
-
 .article {
   text-align: center;
 }
 
-/*TRANSITIONN*/
+/* TRANSITION */
 #main img {
   position: absolute;
   transition: opacity 1s ease-in-out;
@@ -495,7 +491,7 @@ footer {
   opacity: 0;
 }
 
-/*GALLERY*/
+/* GALLERY */
 .gallerybox {
   margin: auto;
   padding: 25px;
