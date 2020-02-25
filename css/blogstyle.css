@@ -86,6 +86,10 @@ nav .nav-div:hover {
 .hidden-nav {
   display: none;
 }
+#selectedpage {
+  background-color: #fff;
+  color: #313638;
+}
 
 /* RESPONSIVE NAV BAR */
 @media only screen and (max-width: 1000px) {
