@@ -93,10 +93,6 @@ nav .nav-div:hover {
 .hidden-nav {
   display: none;
 }
-#selectedpage {
-  background-color: #fff;
-  color: #313638;
-}
 #selectedbiome {
   background-color: #e4b363;
 }
