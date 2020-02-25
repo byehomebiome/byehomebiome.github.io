@@ -200,7 +200,7 @@ nav .nav-div:hover {
 	margin-bottom: 100px;
 	color: #101010;
 	font-size: 100px;
-	line-height: 50px;
+	line-height: 1em;
 	min-width: 50px;
 	outline: none;
 	vertical-align: middle;    
