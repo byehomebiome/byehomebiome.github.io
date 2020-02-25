@@ -62,7 +62,6 @@ footer {
   width: 100%;
   background-color: #313638;
 }
-
 nav {
   height: 100%;
   float: right;
@@ -93,6 +92,13 @@ nav .nav-div:hover {
 }
 .hidden-nav {
   display: none;
+}
+#selectedpage {
+  background-color: #fff;
+  color: #313638;
+}
+#selectedbiome {
+  background-color: #e4b363;
 }
 
 /* RESPONSIVE NAV BAR */
