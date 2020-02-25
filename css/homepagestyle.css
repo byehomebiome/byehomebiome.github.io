@@ -3,21 +3,17 @@
 * {
   box-sizing: border-box;
 }
-
 section img {
   display: inline-block;
 }
-
 @font-face {
   font-family: bebas-neue;
   src: url(../fonts/BebasNeue-Bold.ttf);
 }
-
 body {
   font-family: bebas-neue;
   margin: 0;
 }
-
 body,
 html {
   height: 100%;
@@ -197,7 +193,7 @@ nav .nav-div:hover {
 
 #byehome {
 	/*display: inline-block;*/
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 	color: #101010;
 	font-size: 100px;
 	line-height: 50px;
