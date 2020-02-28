@@ -211,9 +211,9 @@ nav .nav-div:hover {
   margin-left: 20px;	
 }	
 section {	
-  padding: 5px;	
+  padding: 5px;
   width: 90%;	
-  margin: 10px auto;	
+  margin: 10px auto;
   overflow: auto;	
 }	
 article {	
@@ -265,7 +265,7 @@ article::after {
         font-size: 64px;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
     .graph-img {
         float: none;
         width: 100%;
