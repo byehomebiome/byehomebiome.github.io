@@ -296,7 +296,7 @@ hr {
 }
 
 /* CONTENT */
-#leftdiv {
+.leftdiv {
   float: left;
   width: 50%;
   height: 50%;
@@ -305,12 +305,12 @@ hr {
   background-color: #e4b363;
 }
 
-#leftdiv a {
+.leftdiv a {
   text-decoration: none;
   color: black;
 }
 
-#secondp {
+.secondp {
   text-align: justify;
   margin-left: 15%;
   margin-right: 15%;
@@ -329,6 +329,7 @@ hr {
   float: left;
   width: 50%;
   height: 50%;
+  padding-left: 5%;
 }
 .biomep {
   text-align: justify;
@@ -362,7 +363,7 @@ footer {
   width: 100%;
 }
 
-#main {
+.main {
   width: 90%;
   height: 300px;
   margin: 0 auto;
