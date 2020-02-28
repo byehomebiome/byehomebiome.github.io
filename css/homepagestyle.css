@@ -342,8 +342,7 @@ hr {
 #map {
   box-shadow: 0px 3px 2px black;
   border-radius: 10px;
-  margin-left: 40px;
-  width: 80%;
+  width: 60%;
   height: auto;
 }
 .section {
