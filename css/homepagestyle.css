@@ -498,13 +498,17 @@
 		margin: 0 auto;
 		padding: 0;
     }
+	.normal {
+		width: 110px;
+		height: 110px;
+	}
     .section {
         overflow: hidden;
     }
     #mangrove {
 		top: 22%;
     }
-	#rainforest {
+    #rainforest {
 		top: 39%;
 	}
 	#ocean {
