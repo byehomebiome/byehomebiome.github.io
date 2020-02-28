@@ -361,7 +361,7 @@ footer {
   width: 100%;
 }
 
-#main {
+.main {
   width: 90%;
   height: 300px;
   margin: 0 auto;
