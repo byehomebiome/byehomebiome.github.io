@@ -442,7 +442,7 @@
      margin: auto;
      padding: 25px;
 }
- #normal {
+ .normal {
      width: 169px;
      height: 169px;
      cursor: pointer;
@@ -454,7 +454,7 @@
      margin: auto;
      display: block;
 }
- #normal:hover ~ #expandedImg {
+ .normal:hover ~ #expandedImg {
      transform: scale(1.08);
 }
  .expandedbox {
@@ -484,11 +484,30 @@
 }
 @media only screen and (max-width: 600px) {
     .biomecaption {
-	font-size: 40px;
-	letter-spacing: 15px;
-	padding: 15px;
+		font-size: 40px;
+		letter-spacing: 15px;
+		padding: 15px;
     }
     #expandedImg {
-	width: 95%;
+		width: 95%;
     }
+    .column {
+		float: none;
+		width: 75%;
+		box-shadow: none;
+		margin: 0 auto;
+		padding: 0;
+    }
+    .section {
+        overflow: hidden;
+    }
+    #mangrove {
+		top: 22%;
+    }
+	#rainforest {
+		top: 39%;
+	}
+	#ocean {
+		top: 56%;
+	}
 }
