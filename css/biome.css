@@ -236,13 +236,14 @@ article::after {
 
 /* BIBLIOGRAPHY */	
 .bibliography {	
-    padding: 25px;    	
+    padding: 25px; 
+    padding-top: 10px;
 }	
 .bibliography h3 {	
     font-size: 40px; 	
     font-family: bebas-neue; 	
     color: #ef6461; 	
-    margin-bottom: 10px;	
+    margin: 10px 0;	
 }	
 .bibliography summary {	
     font-family: bebas-neue;	
@@ -257,3 +258,24 @@ article::after {
     text-decoration: none;	
     color: black;	
 }	
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 750px) {
+    h1 {
+        font-size: 64px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .graph-img {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    article {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 2% auto 0 auto;
+    }
+}
