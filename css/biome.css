@@ -263,7 +263,7 @@ article::after {
         font-size: 64px;
     }
 }
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1000px) {
     .graph-img {
         float: none;
         width: 100%;
