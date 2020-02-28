@@ -260,7 +260,12 @@ article::after {
 /* RESPONSIVENESS */
 @media only screen and (max-width: 750px) {
     h1 {
-        font-size: 64px;
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    h1 {
+        font-size: 48px;
     }
 }
 @media only screen and (max-width: 1000px) {
