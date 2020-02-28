@@ -329,6 +329,7 @@ hr {
   float: left;
   width: 50%;
   height: 50%;
+  padding-left: 5%;
 }
 .biomep {
   text-align: justify;
