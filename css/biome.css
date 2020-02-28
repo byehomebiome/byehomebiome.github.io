@@ -266,11 +266,13 @@ article::after {
 @media only screen and (max-width: 650px) {
     h1 {
         font-size: 48px;
+        letter-spacing: 16px;
     }
 }
 @media only screen and (max-width: 500px) {
     h1 {
-        font-size: 36px;
+        font-size: 40px;
+        letter-spacing: 12px;
     }
 }
 @media only screen and (max-width: 1000px) {
