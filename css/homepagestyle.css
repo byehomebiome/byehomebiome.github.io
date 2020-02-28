@@ -296,7 +296,7 @@ hr {
 }
 
 /* CONTENT */
-#leftdiv {
+.leftdiv {
   float: left;
   width: 50%;
   height: 50%;
@@ -305,7 +305,7 @@ hr {
   background-color: #e4b363;
 }
 
-#leftdiv a {
+.leftdiv a {
   text-decoration: none;
   color: black;
 }
