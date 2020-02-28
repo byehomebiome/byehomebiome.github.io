@@ -193,16 +193,16 @@ nav .nav-div:hover {
 
 #byehome {
 	/*display: inline-block;*/
-	margin-bottom: 40px;
+	margin: 0;
 	color: #101010;
-	font-size: 7.5vw;
-	line-height: 50px;
+	font-size: 80px;
+	line-height: 1em;
 	min-width: 50px;
 	outline: none;
 	vertical-align: middle;    
 	text-shadow:
-        	0 3px 20px #ff0033,
-        	0 0 20px red,
+		0 3px 20px #ff0033,
+		0 0 20px red,
 		0 0 10px #e67452,
 		4px -5px 6px yellow,
 		-4px -10px 10px #e4b363,
@@ -300,6 +300,7 @@ hr {
   float: left;
   width: 50%;
   height: 50%;
+  margin-left: 15%;
   background: -webkit-linear-gradient(#e4b363, white);
   background-color: #e4b363;
 }
@@ -329,10 +330,8 @@ hr {
   width: 50%;
   height: 50%;
 }
-#biomep {
+.biomep {
   text-align: justify;
-  margin-left: 15%;
-  margin-right: 5%;
   margin-top: 5px;
   text-indent: 30px;
 }
@@ -344,7 +343,7 @@ hr {
   box-shadow: 0px 3px 2px black;
   border-radius: 10px;
   margin-left: 40px;
-  max-width: 400px;
+  width: 40%;
   height: auto;
 }
 .section {
@@ -375,6 +374,10 @@ footer {
   font-size: 50px;
   font-family: bebas-neue;
   margin-bottom: 0px;
+  margin-top: 0.8em;
+}
+#beforeafter {
+  margin-top: 0;
 }
 
 .factors {
