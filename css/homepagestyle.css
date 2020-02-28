@@ -343,6 +343,7 @@ hr {
   border-radius: 10px;
   width: 70%;
   height: auto;
+  margin: auto;
   display: block;
 }
 .section {
@@ -519,4 +520,14 @@ footer {
   color: white;
   font-size: 35px;
   cursor: pointer;
+}
+
+/* MISC REPSONSIVENESS */
+@media only screen and (max-width: 850px) {
+  .left {
+    width: 100%;
+  }
+  #map {
+    width: 90%;
+  }
 }
