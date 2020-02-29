@@ -305,7 +305,8 @@ a h1:hover {
         width: 100%;
     }
     #ecosia {
-        width: 80%;
+        width: 100%;
+        height: auto;
         float: none;
         display: block;
         margin: 0 auto;
