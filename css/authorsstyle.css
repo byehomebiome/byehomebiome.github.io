@@ -273,4 +273,7 @@ blockquote:before {
     .box h2 {
         line-height: 1em;
     }
+    .box blockquote {
+        margin-top: 30px;
+    }
 }
