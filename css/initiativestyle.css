@@ -299,10 +299,15 @@ a h1:hover {
 }
 
 /* RESPONSIVENESS */
-/*
-@media (max-width: 800px) {
-  .nav-div {
-    width: 100%;
-  }
+@media only screen and (max-width: 850px) {
+    .third {
+        float: none;
+        width: 100%;
+    }
+    #ecosia {
+        width: 80%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
 }
-*/
