@@ -173,6 +173,7 @@ nav .nav-div:hover {
   font-size: 60px;
   letter-spacing: 2px;
   text-shadow: 2px 2px #313638;
+  margin: 40px 0;
 }
 #sidneyname {
   color: #ef6461;
@@ -185,6 +186,7 @@ nav .nav-div:hover {
 }
 .box h2 {
   font-size: 30px;
+  margin: 10px 0;
 }
 .box h3 {
   font-family: constantia;
@@ -200,6 +202,7 @@ nav .nav-div:hover {
   border-width: 2px 0;
   text-align: center;
   position: relative;
+  line-height: 1em;
 }
 blockquote:before {
   content: '\201C';
@@ -254,4 +257,20 @@ blockquote:before {
   content: "";
   display: table;
   clear: both;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 900px) {
+    .sidprofile, .reignprofile, .mjprofile {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .sidcontent, .reigncontent, .mjcontent {
+        width: 100%;
+        float: none;
+    }
+    .box h2 {
+        line-height: 1em;
+    }
 }
