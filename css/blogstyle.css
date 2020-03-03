@@ -308,10 +308,10 @@ nav .nav-div:hover {
         width: 100%;
         float: none;
     }
-    .sidecontent a {
+    .sidecontent a, .sidecontent h2 {
         float: left;
     }
-    .sidecontent::after {
+    .sidecontent a::after, .sidecontent h2::after {
         clear: both;
     }
 }
