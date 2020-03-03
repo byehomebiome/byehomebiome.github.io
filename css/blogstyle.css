@@ -169,7 +169,7 @@ nav .nav-div:hover {
 /* ARTICLES */
 
 .main, .side {
-  float: left;
+  float: right;
 }
 .content {
   padding: 0;
@@ -299,4 +299,19 @@ nav .nav-div:hover {
 }
 .profile:hover {
   transform: scale(1.1);
+}
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 900px) {
+    .side, .main {
+        width: 100%;
+        float: none;
+    }
+    .sidecontent a {
+        float: left;
+    }
+    .sidecontent::after {
+        clear: both;
+    }
 }
