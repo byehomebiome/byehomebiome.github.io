@@ -312,6 +312,7 @@ nav .nav-div:hover {
     }
     .author-div {
         float: left;
+        width: 33.33%;
     }
     .author-div::after {
         clear: both;
