@@ -321,5 +321,10 @@ nav .nav-div:hover {
         display: block;
         float: none;
         margin: 0 auto;
-    } 
+    }
+    .articleimg {
+        width: 90%;
+        display: block;
+        margin: 10% auto;
+    }
 }
