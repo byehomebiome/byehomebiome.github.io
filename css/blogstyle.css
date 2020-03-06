@@ -331,11 +331,20 @@ nav .nav-div:hover {
     }
     .articleimg {
         width: 90%;
+        height: 100%;
         display: block;
-        margin: 10% auto;
+        margin: 2.5% auto;
     }
     .sidecontent {
         width: 95%;
-        margin: 0 auto 30px auto;
+        margin: 0 auto;
+        height: 280px;
+    }
+    .articleinfo {
+        left: 20px;
+        bottom: 30px;
+    }
+    .main article {
+        margin-bottom: 4%;
     }
 }
