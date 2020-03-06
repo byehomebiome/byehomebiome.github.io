@@ -332,4 +332,8 @@ nav .nav-div:hover {
         display: block;
         margin: 10% auto;
     }
+    .sidecontent {
+        width: 95%;
+        margin: 0 auto 30px auto;
+    }
 }
