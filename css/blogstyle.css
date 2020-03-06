@@ -306,9 +306,14 @@ nav .nav-div:hover {
 /* RESPONSIVENESS */
 
 @media only screen and (max-width: 900px) {
-    .side, .main {
+    .side {
         width: 100%;
         float: none;
+    }
+    .main {
+        float: none;
+        width: 95%;
+        margin: 0 auto;
     }
     .author-div {
         float: left;
