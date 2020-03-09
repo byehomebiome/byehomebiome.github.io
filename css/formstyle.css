@@ -283,7 +283,6 @@ hr { color: #e4b363; }
   padding: 20px 10px;
   border-radius: 5px;
   width: 60%;
-  position: absolute;
   display: inline-block;
   text-align: left;
 }
