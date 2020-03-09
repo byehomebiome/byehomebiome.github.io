@@ -304,5 +304,6 @@ article::after {
         float: none;
         margin: auto;
         margin-top: 20px;
+        display: block;
     }
 }
