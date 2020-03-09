@@ -280,6 +280,9 @@ article::after {
     #blog-type, #blog-title {
         font-size: 60px;
     }
+    #blog-type {
+        margin-bottom: 0;
+    }
     .blog-name {
         bottom: 0;
     }
@@ -292,7 +295,14 @@ article::after {
         font-size: 40px;
     }
     .graph-img {
-        width: 60%;
+        width: 70%;
         height: auto;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .graph-img {
+        float: none;
+        margin: auto;
+        margin-top: 20px;
     }
 }
