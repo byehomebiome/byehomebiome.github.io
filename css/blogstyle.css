@@ -277,7 +277,7 @@ nav .nav-div:hover {
   padding: 10px;
   background-color: #ef6461;
   box-shadow: 2px 2px 6px #999;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .sidecontent h1 {
   font-size: 30px;
@@ -360,6 +360,7 @@ nav .nav-div:hover {
     .profile {
         width: 90px;
         height: 90px;
+        margin-bottom: 5px;
     }
     .sidecontent {
         height: 200px;
