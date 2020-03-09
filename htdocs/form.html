@@ -24,6 +24,46 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-157736734-8');
+        
+        <!-- COOKIES FOR THE FORM -->
+            // to be called when the Submit button is clicked
+		var submit = function(){
+			let rating = document.forms[0].rating.value;
+			let issues = document.forms[0].issues.value;
+			let suggestions = document.forms[0].suggestions.value;
+			let donate = document.forms[0].donate.value;
+			
+			let objComment = {ratings: rating, issue: issues, suggestion: suggestions, donates: donate };
+			
+			let jsonString = JSON.stringify(objComment);
+			
+			cookie = (!localStorage.getItem("cookie")) ? 1 : Number(localStorage.getItem("cookie")) + 1;
+			
+			record = "Record" + cookie;
+			
+			localStorage.setItem(record, jsonString)
+			
+			localStorage.setItem("cookie", cookie.toString())
+		}
+		
+		// to be called the moment the webpage reloads
+		var reload = function(){
+			cookie = localStorage.getItem("cookie")
+			
+			if (cookie) {
+				for (i=1; i<=cookie; i++) {
+					record = "Record" + i	// construct the cookie keynames 
+					
+					text = localStorage.getItem(record); 
+
+					recordObject = JSON.parse(text);
+					
+					comments.innerHTML += "<h4> You rated Bye Home, Biomes a " + recordObject.ratings + " out of 5! </h4><span> Thank you for forwarding your issue(s) with our website, '" + recordObject.issue + "' and for giving us your splendid suggestion(s), '" 
+					+	recordObject.suggestion + "'! <br> The team would also like to express our gratitude for your pledge of donating " + recordObject.donates + " pesos.</span>" + document.getElementById("likemost").innerHTML;
+				}
+			}
+			else {comments.innerHTML = "Input your feedback."}
+		}		
     </script>
 </head>
 
