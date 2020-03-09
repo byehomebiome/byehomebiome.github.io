@@ -19,6 +19,7 @@
  html {
      scroll-behavior: smooth;
 }
+
 /* TYPOGRAPHY */
  body, p, a, button {
      font-family: Constantia;
@@ -42,6 +43,7 @@
  .red {
      color: #ff0033;
 }
+
 /* TOP NAVIGATION BAR */
  .logo {
      float: left;
@@ -94,6 +96,7 @@
  .hidden-nav {
      display: none;
 }
+
 /* RESPONSIVE NAV BAR */
  @media only screen and (max-width: 1000px) {
      .nav-div, #biomedropdown {
@@ -125,6 +128,7 @@
          text-align: center;
     }
 }
+z
 /* DROPDOWN */
  .dropbtn {
      background-color: #313638;
@@ -166,6 +170,7 @@
      background-color: #eee;
      color: black;
 }
+
 /* LANDING PAGE */
 /*#byehome {
      font-size: 500%;
@@ -221,8 +226,6 @@
  #uparrow:hover {
      opacity: 100%;
      transform: rotate(180deg);
-    /*transform: scale(1.05, 1.05);
-    */
 }
  #cctop {
      color: white;
@@ -254,6 +257,7 @@
      width: 80%;
      color: black;
 }
+
 /* CONTENT */
  .leftdiv {
      float: left;
@@ -397,6 +401,10 @@
  .bibliography a:hover {
      color: #313638;
 }
+li {
+	word-wrap: break-word;
+}
+
 /* COLUMNS */
  .column {
      float: left;
@@ -425,6 +433,7 @@
  .article {
      text-align: center;
 }
+
 /* TRANSITION */
  .main img {
      position: absolute;
@@ -437,6 +446,7 @@
  .main img.top:hover {
      opacity: 0;
 }
+
 /* GALLERY */
  .gallerybox {
      margin: auto;
@@ -469,7 +479,8 @@
      font-size: 35px;
      cursor: pointer;
 }
-/* MISC REPSONSIVENESS */
+
+/* REPSONSIVENESS */
 @media only screen and (max-width: 850px) {
      .leftdiv, .left {
          width: 100%;
@@ -505,9 +516,9 @@
     .section {
         overflow: hidden;
     }
-    #mangrove {
+   	#mangrove {
 		top: 22%;
-    }
+   	 }
     #rainforest {
 		top: 39%;
 	}
