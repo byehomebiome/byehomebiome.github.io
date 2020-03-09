@@ -274,7 +274,7 @@ a:active {
   background-color: #f0b09a;
 }
 
-/* FEEDBACK DIVS */
+/* FEEDBACK SECTION */
 hr { color: #e4b363; }
 
 #feedback {
@@ -282,6 +282,7 @@ hr { color: #e4b363; }
   padding: 20px 10px;
   border-radius: 5px;
   width: 60%;
+  position: absolute;
   display: inline-block;
   text-align: left;
 }
