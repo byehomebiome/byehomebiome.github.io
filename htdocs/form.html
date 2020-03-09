@@ -27,7 +27,7 @@
         
         <!-- COOKIES FOR THE FORM -->
             // to be called when the Submit button is clicked
-		var submit = function(){
+		var sData = function(){
 			let rating = document.forms[0].rating.value;
 			let issues = document.forms[0].issues.value;
 			let suggestions = document.forms[0].suggestions.value;
@@ -47,7 +47,7 @@
 		}
 		
 		// to be called the moment the webpage reloads
-		var reload = function(){
+		var rData = function(){
 			cookie = localStorage.getItem("cookie")
 			
 			if (cookie) {
@@ -67,7 +67,7 @@
     </script>
 </head>
 
-<body onload="reload()">
+<body onload="rData()">
   <header id="top">
     <!-- LOGO -->
     <a href="../index.html"><img class="logo" src="https://i.imgur.com/iNASvLu.png" alt="website logo"></a>
@@ -103,7 +103,7 @@
   </header>
 
     <div id="formwrapper">
-        <form onsubmit="return submit()">
+        <form onsubmit="return sData()">
             <fieldset>
                 <legend>How's our site?</legend>
                 <label onclick="userrating()">
