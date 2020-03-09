@@ -67,7 +67,7 @@
     </script>
 </head>
 
-<body>
+<body onload="reload()">
   <header id="top">
     <!-- LOGO -->
     <a href="../index.html"><img class="logo" src="https://i.imgur.com/iNASvLu.png" alt="website logo"></a>
@@ -103,7 +103,7 @@
   </header>
 
     <div id="formwrapper">
-        <form>
+        <form onsubmit="return submit()">
             <fieldset>
                 <legend>How's our site?</legend>
                 <label onclick="userrating()">
@@ -135,7 +135,7 @@
             <br>
             <fieldset>
                 <legend>Support Us</legend>
-                <label> Donate (PHP)
+                <label> I pledge to donate in PHP:
                     <input name="donate" type="number" min="0">
                 </label>
                 <a href="https://forms.gle/UD12aHNTfs4MTn1k9" target="_blank"><h3>Click here to vote for <em>Bye Home</em> as the best website!</h3></a>
@@ -144,6 +144,12 @@
             <br>
             <input id="submit" type="submit">
         </form>
+    </div>
+	
+    <!-- To display the cookies, and feedback of form -->
+    <div>
+	<h2> Thank you for your feedback! </h2>
+		<p id="comments"></p>	
     </div>
 
     <footer>
