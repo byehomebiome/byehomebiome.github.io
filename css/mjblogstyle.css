@@ -282,3 +282,39 @@ a:hover {
 a:active {
   color: #cedd80;
 }
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 800px) {
+    .bottom-img, .semitransparent, .biome-img {
+        height: 300px;
+    }
+    #blog-type, #blog-title {
+        font-size: 60px;
+    }
+    #blog-type {
+        margin-bottom: 0;
+    }
+    .blog-name {
+        bottom: 0;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .bottom-img, .semitransparent, .biome-img {
+        height: 250px;
+    }
+    #blog-type, #blog-title {
+        font-size: 40px;
+    }
+    .graph-img {
+        width: 70%;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .graph-img {
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+        display: block;
+    }
+}
