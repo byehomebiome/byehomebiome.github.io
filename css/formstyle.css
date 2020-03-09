@@ -67,8 +67,6 @@ footer {
 nav {
   height: 100%;
   float: right;
-  position: absolute;
-  bottom: 0px;
 }
 nav a {
   color: white;
@@ -153,7 +151,8 @@ nav .nav-div:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ddd;
+  backgro
+  und-color: #ddd;
   width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -281,7 +280,7 @@ hr { color: #e4b363; }
 
 #feedback {
   margin: 20px;
-  margin-top: 100px;
+  margin-top: 80px;
   padding: 20px 10px;
   border-radius: 5px;
   width: 60%;
