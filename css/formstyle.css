@@ -37,56 +37,67 @@ h2 {
 }
 
 /* TOP NAVIGATION BAR */
- .logo {
-     float: left;
-     width: 50px;
-     height: 40px;
-     margin-top: 5px;
+
+.logo {
+  float: left;
+  width: 50px;
+  height: 40px;
+  margin-top: 5px;
 }
- .home {
-     float: left;
-     width: 40px;
-     height: 40px;
+.home {
+  float: left;
+  width: 40px;
+  height: 40px;
 }
- header {
-     position: fixed;
-     top: 0;
-     z-index: 3;
-     box-shadow: 0px 0px 5px black;
+header {
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  box-shadow: 0px 0px 5px black;
 }
- header, footer {
-     text-align: center;
-     margin: 0;
-     height: 50px;
-     width: 100%;
-     background-color: #313638;
+header,
+footer {
+  text-align: center;
+  margin: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #313638;
 }
- nav {
-     height: 100%;
-     float: right;
+
+nav {
+  height: 100%;
+  float: right;
 }
- nav a {
-     color: white;
-     text-decoration: none;
+nav a {
+  color: white;
+  text-decoration: none;
 }
- .nav-div {
-     background-color: #313638;
-     height: 100%;
-     width: 150px;
-     float: left;
-     color: white;
+.nav-div {
+  background-color: #313638;
+  height: 100%;
+  width: 150px;
+  float: left;
+  color: white;
 }
- nav::after {
-     content: "";
-     display: block;
-     clear: both;
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
 }
- nav .nav-div:hover {
-     background-color: #eee;
-     color: #313638;
+nav .nav-div:hover {
+  background-color: #eee;
+  color: #313638;
 }
- .hidden-nav {
-     display: none;
+#biomedropdown p {
+  font-family: bebas-neue;
+  font-size: 16px;
+}
+.hidden-nav {
+  display: none;
+}
+#selectedpage {
+  background-color: #fff;
+  color: #313638;
 }
 
 /* RESPONSIVE NAV BAR */
