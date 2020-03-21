@@ -251,14 +251,14 @@
 }
 
 /* CONTENT */
- .leftdiv {
+ #leftdiv {
      float: left;
      width: 50%;
      height: 50%;
      background: -webkit-linear-gradient(#e4b363, white);
      background-color: #e4b363;
 }
- .leftdiv a {
+ #leftdiv a {
      text-decoration: none;
      color: black;
 }
@@ -394,7 +394,7 @@
      color: #313638;
 }
 li {
-	word-wrap: break-word;
+     word-wrap: break-word;
 }
 
 /* COLUMNS */
@@ -474,7 +474,7 @@ li {
 
 /* REPSONSIVENESS */
 @media only screen and (max-width: 850px) {
-     .leftdiv, .left {
+     #leftdiv, .left {
          width: 100%;
     }
      #map {
