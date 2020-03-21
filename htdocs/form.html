@@ -25,7 +25,7 @@
 
         gtag('config', 'UA-157736734-8');
         
-        <!-- COOKIES FOR THE FORM -->
+        //COOKIES FOR THE FORM
             // to be called when the Submit button is clicked
 		var sData = function(){
 			let rating = document.forms[0].rating.value;
@@ -102,10 +102,12 @@
       </a>
     </nav>
   </header>
-	
+
+    <!-- FORM -->
     <div id="formwrapper">
         <form onsubmit="return sData()">
             <fieldset>
+		<!-- FEEDBACK ON SITE -->
                 <legend>How's our site?</legend>
                 <label onclick="userrating()">
                     <p>Rate our site:</p>
@@ -133,6 +135,8 @@
                     <input name="suggestions" type="text">
                 </label>
             </fieldset>
+	    
+	    <!-- DONATE AND VOTE -->
             <br>
             <fieldset>
                 <legend>Support Us</legend>
