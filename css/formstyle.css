@@ -89,38 +89,6 @@ h2 {
      display: none;
 }
 
-/* RESPONSIVE NAV BAR */
-
-@media only screen and (max-width: 1000px) {
-  .nav-div, #biomedropdown {
-    display: none;
-  }
-  .hidden-nav-img {
-    height: 90%;
-    width: auto;
-    padding-top: 5px;
-    margin: auto;
-  }
-  .hidden-nav {
-    background-color: #313638;
-    height: 100%;
-    width: 150px;
-    display: inline-block;
-  }
-  .hidden-nav:hover {
-    background-color: #e4b363;
-    cursor: pointer;
-  }
-  .responsive .hidden-nav {
-    background-color: #e4b363;
-  }
-  .responsive .nav-div, .responsive #biomedropdown {
-    float: none;
-    display: block;
-    padding: 2px 0;
-    text-align: center;
-  }
-}
 
 /* DROPDOWN */
  .dropbtn {
