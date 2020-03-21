@@ -23,10 +23,11 @@ function userrating() {
 		var sData = function(){
 			let rating = document.forms[0].rating.value;
 			let issues = document.forms[0].issues.value;
+			let likemost = document.forms[0].likemost.value;			
 			let suggestions = document.forms[0].suggestions.value;
 			let donate = document.forms[0].donate.value;
 			
-			let objComment = {ratings: rating, issue: issues, suggestion: suggestions, donates: donate };
+			let objComment = {ratings: rating, issue: issues, likesmost: likemost, suggestion: suggestions, donates: donate };
 			
 			let jsonString = JSON.stringify(objComment);
 			
@@ -51,8 +52,8 @@ function userrating() {
 
 					recordObject = JSON.parse(text);
 					
-					comments.innerHTML += "<h4> You rated Bye Home, Biomes a " + recordObject.ratings + " out of 5! </h4> We are delighted to know that you liked our website the most for its quality of being " + document.getElementById("likemost").innerHTML 
-						+ ". We shall also take into account the issues you have encountered ('" + recordObject.issue + "') and the suggestions you have offered ('" + recordObject.suggestion 
+					comments.innerHTML += "<h4> You rated Bye Home, Biomes a " + recordObject.ratings + " out of 5! </h4> We are delighted to know that you liked our website the most for its quality of being " + recordObject.likesmost + 
+						". We shall also take into account the issues you have encountered ('" + recordObject.issue + "') and the suggestions you have offered ('" + recordObject.suggestion 
 						+ "') for Bye Home, Biomes. <br> The team would also like to express our gratitude for your pledge of donating " + recordObject.donates + " pesos. <br /><hr>";
 				}
 			}
