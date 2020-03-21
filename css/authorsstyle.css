@@ -18,6 +18,11 @@ body {
   margin: 0;
 }
 
+::selection{
+  color: #313638;
+  background-color: #f0b09a;
+}
+
 /* TOP NAVIGATION BAR */
 
 .logo {
