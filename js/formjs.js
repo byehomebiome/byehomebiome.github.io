@@ -54,7 +54,7 @@ function userrating() {
 					
 					comments.innerHTML += "<h4> You rated Bye Home, Biomes a <span>" + recordObject.ratings + "</span> out of 5! </h4> We are delighted to know that you liked our website the most for its quality of being<span> " + recordObject.likesmost + 
 						"</span>. We shall also take into account the issues you have encountered ('<span>" + recordObject.issue + "</span>') and the suggestions you have offered ('<span>" + recordObject.suggestion 
-						+ "</span>') for Bye Home, Biomes. <br> The team would also like to express our gratitude for your pledge of donating <span>" + recordObject.donates + "</span> pesos. <br /><hr>";
+						+ "</span>') for Bye Home, Biomes. <br> The team would also like to express our gratitude for your pledge of donating <span>" + recordObject.donates + "</span> pesos, and/or for at least paying our website a warm visit. Have a good day! <br /><hr>";
 				}
 			}
 			else {comments.innerHTML = "Input your feedback."}	
