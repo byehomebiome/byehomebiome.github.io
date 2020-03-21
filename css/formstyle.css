@@ -233,7 +233,7 @@ select, input[type = text], input[type = number] {
   transition: 0.5s;
   outline: none;
 }
-input[name="rating"] {
+input[name="rating"], input[name="likemost"] {
   height: 20px;
   width: 20px;
 }
