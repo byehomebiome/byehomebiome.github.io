@@ -286,6 +286,11 @@ hr { color: #e4b363; }
   text-align: left;
 }
 
+span {
+ color: #ef6461; 
+ font-weight: bold;
+}
+
 /* RESPONSIVENESS */
 
 @media only screen and (max-width: 800px) {
