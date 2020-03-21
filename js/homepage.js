@@ -1,7 +1,6 @@
 function scrollPage() {
-  var scrollto = document.getElementById("scrolltarget");
+  var scrollto = document.getElementById("uparrow");
   scrollto.scrollIntoView();
-  //document.getElementById("leftdiv").scrollIntoView();
 }
 
 function expand(imgs) {
