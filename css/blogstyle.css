@@ -17,6 +17,11 @@ a {
   text-decoration: none;
 }
 
+::selection{
+  color: #313638;
+  background-color: #e4b363;
+}
+
 /* TYPOGRAPHY */
 
 h1, h2, a, li {
