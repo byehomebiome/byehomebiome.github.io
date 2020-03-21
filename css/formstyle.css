@@ -101,35 +101,77 @@ nav .nav-div:hover {
 }
 
 /* RESPONSIVE NAV BAR */
- @media only screen and (max-width: 1000px) {
-     .nav-div, #biomedropdown {
-         display: none;
-    }
-     .hidden-nav-img {
-         height: 90%;
-         width: auto;
-         padding-top: 5px;
-         margin: auto;
-    }
-     .hidden-nav {
-         background-color: #313638;
-         height: 100%;
-         width: 150px;
-         display: inline-block;
-    }
-     .hidden-nav:hover {
-         background-color: #e4b363;
-         cursor: pointer;
-    }
-     .responsive .hidden-nav {
-         background-color: #e4b363;
-    }
-     .responsive .nav-div, .responsive #biomedropdown {
-         float: none;
-         display: block;
-         padding: 2px 0;
-         text-align: center;
-    }
+@media only screen and (max-width: 1000px) {
+  .nav-div, #biomedropdown {
+    display: none;
+  }
+  .hidden-nav-img {
+    height: 90%;
+    width: auto;
+    padding-top: 5px;
+    margin: auto;
+  }
+  .hidden-nav {
+    background-color: #313638;
+    height: 100%;
+    width: 150px;
+    display: inline-block;
+  }
+  .hidden-nav:hover {
+    background-color: #e4b363;
+    cursor: pointer;
+  }
+  .responsive .hidden-nav {
+    background-color: #e4b363;
+  }
+  .responsive .nav-div, .responsive #biomedropdown {
+    float: none;
+    display: block;
+    padding: 2px 0;
+    text-align: center;
+  }
+}
+
+/* DROPDOWN */
+.dropbtn {
+  background-color: #313638;
+  color: #fff;
+  border: none;
+  width: 150px;
+  height: 100%;
+  font-family: bebas-neue;
+  font-size: 16px;
+}
+.dropbtn:hover {
+  background-color: #eee;
+  color: #313638;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #eee;
+  width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #eee;
+  color: #313638;
 }
 
 /* FORM */
