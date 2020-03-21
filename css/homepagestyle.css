@@ -128,7 +128,7 @@
          text-align: center;
     }
 }
-z
+
 /* DROPDOWN */
  .dropbtn {
      background-color: #313638;
@@ -172,14 +172,6 @@ z
 }
 
 /* LANDING PAGE */
-/*#byehome {
-     font-size: 500%;
-     background: -webkit-linear-gradient(#ff0033, #e4b363);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     margin-bottom: 0px;
-     margin-top: 0px;
-    */
  #byehome {
     /*display: inline-block;
     */
