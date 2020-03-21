@@ -18,8 +18,7 @@ function userrating() {
   document.getElementById("ratingtext").innerHTML = message;
 }
 
-<script>
- //COOKIES FOR THE FORM
+//COOKIES FOR THE FORM
             // to be called when the Submit button is clicked
 		var sData = function(){
 			let rating = document.forms[0].rating.value;
@@ -59,4 +58,3 @@ function userrating() {
 			}
 			else {comments.innerHTML = "Input your feedback."}	
 		}			
-</script>
