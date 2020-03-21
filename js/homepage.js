@@ -1,5 +1,5 @@
 function scrollPage() {
-  var scrollto = document.getElementById("leftdiv");
+  var scrollto = document.getElementById("scrolltarget");
   scrollto.scrollIntoView();
   //document.getElementById("leftdiv").scrollIntoView();
 }
